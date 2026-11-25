@@ -1,4 +1,4 @@
-# smartpdf-ru
+# SmartPDF
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-smartpdf-ru is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://smartpdf.ru/
+SmartPDF is an online PDF conversion service based in Russia, offering free tools to convert, compress, merge, and edit PDF files. Users can transform documents between PDF, Word, Excel, PowerPoint, images, and other formats directly in the browser without installing software. The platform emphasizes privacy, speed, and server-side processing within Russia.
+
+**Areas:** PDF · Conversion · OnlineTool · Free · Russia
+
+## SmartPDF on APIs.io
+
+Everything profiled for SmartPDF is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/smartpdf-ru/](https://apis.io/providers/smartpdf-ru/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [SmartPDF API Keys API](https://apis.io/apis/smartpdf-ru/smartpdf-ru-api-keys-api/) — The api-keys API from SmartPDF — 1 operation(s) for api-keys.
+- [SmartPDF Operations API](https://apis.io/apis/smartpdf-ru/smartpdf-ru-operations-api/) — The operations API from SmartPDF — 47 operation(s) for operations.
+- [SmartPDF Pricing API](https://apis.io/apis/smartpdf-ru/smartpdf-ru-pricing-api/) — The pricing API from SmartPDF — 2 operation(s) for pricing.
+- [SmartPDF Tasks API](https://apis.io/apis/smartpdf-ru/smartpdf-ru-tasks-api/) — The tasks API from SmartPDF — 3 operation(s) for tasks.
+- [SmartPDF Upload API](https://apis.io/apis/smartpdf-ru/smartpdf-ru-upload-api/) — The upload API from SmartPDF — 2 operation(s) for upload.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Smartpdf Ru Webhooks](https://apis.io/asyncapis/smartpdf-ru/smartpdf-ru-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SmartPDF Agentic Access](https://apis.io/agentic-access/smartpdf-ru/smartpdf-ru-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CompressImagesRequest](https://apis.io/schemas/smartpdf-ru/smartpdf-ru-compress-images-request/)
+- [EditPdfRequest](https://apis.io/schemas/smartpdf-ru/smartpdf-ru-edit-pdf-request/)
+- [PhotoToPdfRequest](https://apis.io/schemas/smartpdf-ru/smartpdf-ru-photo-to-pdf-request/)
+- [RedactRequest](https://apis.io/schemas/smartpdf-ru/smartpdf-ru-redact-request/)
+- [ResizeImagesRequest](https://apis.io/schemas/smartpdf-ru/smartpdf-ru-resize-images-request/)
+- [WatermarkRequest](https://apis.io/schemas/smartpdf-ru/smartpdf-ru-watermark-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Smartpdf Ru Context](https://apis.io/jsonld/smartpdf-ru/smartpdf-ru-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SmartPDF API Rules](https://apis.io/rules/smartpdf-ru/smartpdf-ru-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SmartPDF Authentication](https://apis.io/security/smartpdf-ru/smartpdf-ru-authentication/)
+- [SmartPDF Domain Security](https://apis.io/security/smartpdf-ru/smartpdf-ru-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SmartPDF Plans Pricing](https://apis.io/plans/smartpdf-ru/smartpdf-ru-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://smartpdf.ru/)
+- [Documentation](https://dev.smartpdf.ru/)
+- [Getting started](https://smartpdf.ru/developers/docs/quickstart)
+- [API reference](https://smartpdf.ru/llms.txt)
+- [Pricing](https://smartpdf.ru/pricing)
+- [Sign up](https://smartpdf.ru/register?from=dev)
+- [Terms of service](https://smartpdf.ru/terms)
+- [Privacy policy](https://smartpdf.ru/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.9** — strong · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 63.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 34.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/smartpdf-ru/](https://apis.io/providers/smartpdf-ru/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SmartPDF: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/smartpdf-ru/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
